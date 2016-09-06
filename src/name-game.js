@@ -29,7 +29,7 @@ function post(text) {
 }
 
 function check(name) {
-  var names = [guessUser.name, guessUser.profile.first_name, guessUser.profile.last_name, guessUser.profile.real_name].map((s) => s.toLowerCase());
+  var names = [guessUser.name, guessUser.profile.first_name, guessUser.profile.last_name, guessUser.profile.real_name].filter((s) => s !== undefined ).map((s) => s.toLowerCase());
   return names.indexOf(name.toLowerCase()) >= 0;
 }
 
