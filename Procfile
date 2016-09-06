@@ -1,1 +1,1 @@
-web: node src/name-game.js
+worker: node src/name-game.js
