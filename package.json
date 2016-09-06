@@ -1,0 +1,28 @@
+{
+  "name": "mnd-name-game",
+  "version": "1.0.0",
+  "description": "Slack bot to learn the names of your collegues",
+  "main": "src/name-game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janne/name-game.git"
+  },
+  "keywords": [
+    "slack",
+    "nodejs",
+    "node"
+  ],
+  "author": "Jan Andersson <jan.andersson@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/janne/name-game/issues"
+  },
+  "homepage": "https://github.com/janne/name-game#readme",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "slackbots": "^0.5.2"
+  }
+}
