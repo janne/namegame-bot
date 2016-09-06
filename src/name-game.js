@@ -48,7 +48,7 @@ bot.on('message', function(data) {
     var words = data.text.replace(/^\s+|\s+$/g, '').split(/\s+/);
     var command = words[0];
     var params = words.splice(1);
-    switch(command) {
+    switch(command.toLowerCase()) {
       case 'help':
         post(help());
         break;
